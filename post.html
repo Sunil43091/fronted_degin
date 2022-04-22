@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Do my Bidding</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="headerColMain">
+      <div class="container">
+        <div class="row g-2 align-items-center">
+          <div class="col-auto">
+            <div class="logoCol">
+              <a href="index.html">
+                <img src="images/logo.png" alt="...">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="navigationCol">
+              <div class="navCol text-center">
+                <ul>
+                  <li>
+                    <a href="javascript:void(0)">
+                      <span class="menuIcon"><img src="images/menu-icon-1.png" alt=""></span>
+                      <span class="menuText">Get bidding!</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">
+                      <span class="menuIcon"><img src="images/menu-icon-2.png" alt=""></span>
+                      <span class="menuText">Post a Service</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="mLink2">
+                      <span class="menuIcon"><img src="images/menu-icon-3.png" alt=""></span>
+                      <span class="menuText">Browse Services</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="mLink2">
+                      <span class="menuIcon"><img src="images/menu-icon-4.png" alt=""></span>
+                      <span class="menuText">Service Providers</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="headerRightCol">
+              <div class="row align-items-center g-0">
+                <div class="col">
+                  <div class="logCol">
+                    <ul>
+                      <li>
+                        <a href="login.html">login</a>
+                      </li>
+                      <li>
+                        <a href="register.html">register</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-auto d-lg-none">
+                  <div class="toggle ps-3">
+                    <a href="javascript:void(0)" class="navTrigger"><img src="images/nav-toggle.svg" alt="Image Not Found"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="headerHeight"></div>
+
+  <section>
+    <div class="postAdCol">
+      <div class="container">
+        <form class="formStyle2" action="">
+          <div class="postCardMain">
+            <div class="postHeader">
+              <h4>Post your free ad</h4>
+            </div>
+            <div class="postBody">
+              <div class="row g-3">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <label for="categoryFld" class="form-label">Category</label>
+                      <select id="posting_category_select" class="form-select">
+                        <option class="title" disabled="disabled" value="" selected="selected">Our categories</option>
+                        <option class="title" disabled="disabled">-- VEHICLES --</option>
+                        <option value="__posting_vehicle_group">Cars-Motorbikes-Vans-Boats</option>
+                        <option value="vehicle_accessories">Vehicle Parts &amp; Accessories</option>
+                        <option class="title" disabled="disabled">-- RESIDENTIAL PROPERTY --</option>
+                        <option value="housing_for_sale">Property for Sale</option>
+                        <option value="housing_for_rent">Property to Rent</option>
+                        <option value="real_estate">Commercial Property</option>
+                        <option class="title" disabled="disabled">-- HOLIDAYS --</option>
+                        <option value="vacation_rentals_exchange">Hotels</option>
+                        <option value="overseas_realestate">Holiday Rentals</option>
+                        <option value="tours_services">Holidays Services</option>
+                        <option value="housing_exchange">House Exchange</option>
+                        <option class="title" disabled="disabled">-- JOBS &amp; SERVICES --</option>
+                        <option value="jobs - small_jobs">Jobs - Domestic Help</option>
+                        <option value="job_seekers">Job Seekers - CVs</option>
+                        <option value="services">Services</option>
+                        <option value="classes">Classes</option>
+                        <option value="community - events">Community - Local Events</option>
+                        <option value="public_notice">Public Notices</option>
+                        <option class="title" disabled="disabled">-- FARMING --</option>
+                        <option value="__agriculture_group">Farms - Vehicles - Services</option>
+                        <option class="title" disabled="disabled">-- HOME --</option>
+                        <option value="__for_sale_home_group">Furniture - Accessories</option>
+                        <option value="collectibles_books">Books and collectables</option>
+                        <option value="pro_equipment">Office or Professional Equipment</option>
+                        <option value="house_and_garden">Garden, Outdoor &amp; DIY</option>
+                        <option value="__for_sale_home_other_group">Other</option>
+                        <option class="title" disabled="disabled">-- ELECTRONICS --</option>
+                        <option value="photo_hifi_tv">Camera, Audio &amp; Video </option>
+                        <option value="art_music">CDs - DVDs - Video Games</option>
+                        <option value="computers_elec">Computers &amp; Accessories</option>
+                        <option value="phones_pdas">Mobile Phones</option>
+                        <option class="title" disabled="disabled">-- FASHION --</option>
+                        <option value="clothes_accessories">Clothes, Footwear &amp; Accessories</option>
+                        <option value="children">Kids Clothing &amp; Toys</option>
+                        <option value="furniture_household">Jewellery for sale</option>
+                        <option value="beauty_products">Health &amp; Beauty Products</option>
+                        <option class="title" disabled="disabled">-- LEISURE --</option>
+                        <option value="food_and_wine">Food &amp; Beverages</option>
+                        <option value="hand_made">Hand Made</option>
+                        <option value="music_instruments">Musical Instruments</option>
+                        <option value="sportswear">Bikes &amp; Sports Equipment</option>
+                        <option value="tickets">Event tickets </option>
+                        <option class="title" disabled="disabled">-- FREE PERSONALS --</option>
+                        <option value="missed-connections">Friendship - Friends</option>
+                        <option value="serious_relationships">Straight Relationships</option>
+                        <option value="gay_adult_services">Gay Escorts</option>
+                        <option value="gay_relationships">Gay and Lesbian</option>
+                        <option value="open_minds">Adult Dating </option>
+                        <option value="trans_escorts">Trans Escorts</option>
+                        <option value="adult_services">Escorts and Massages</option>
+                        <option value="phone_services">Adult Entertainment</option>
+                        <option value="swingers">Swingers</option>
+                        <option value="adult_jobs">Adult Jobs</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <div class="catOptionCol">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Car Parts & Spares</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">Motorcycle Parts & Spares</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                          <label class="form-check-label" for="inlineRadio3">Caravan Parts & Accessories</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <label for="postcodeFld" class="form-label">Postcode</label>
+                  <input type="text" id="postcodeFld" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                  <label for="adTitle" class="form-label">Title of your ad</label>
+                  <input type="text" id="adTitle" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label for="descriptionFld" class="form-label">Description</label>
+                  <textarea id="descriptionFld" class="form-control"></textarea>
+                </div>
+                <div class="col-12">
+                  <label for="positionFlds" class="form-label">Position Available</label>
+                  <div class="inlineCheck">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox1">Photographer</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <label class="form-check-label" for="inlineCheckbox2">Escorts</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                      <label class="form-check-label" for="inlineCheckbox3">Drivers</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                      <label class="form-check-label" for="inlineCheckbox4">Receptionist</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                      <label class="form-check-label" for="inlineCheckbox5">Models</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                      <label class="form-check-label" for="inlineCheckbox6">Masseuses</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <label for="salaryFld" class="form-label">Salary</label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">£</span>
+                    <input type="text" class="form-control" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="postHeader">
+              <h4> Upload photos</h4>
+            </div>
+            <div class="postBody">
+              <div class="fileUploadCol">
+                <div class="upload__box">
+                  <div class="upload__btn-box">
+                    <label class="upload__btn">
+                      <span><img src="images/upload-icon.svg" alt="..."></span>
+                      <p>Upload images</p>
+                      <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                    </label>
+                  </div>
+                  <div class="upload__img-wrap"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="postHeader">
+              <h4>Your personal info</h4>
+            </div>
+            <div class="postBody">
+              <div class="row g-3">
+                <div class="col-lg-6">
+                  <label for="adTitle" class="form-label">Phone</label>
+                  <input type="text" id="adTitle" class="form-control">
+                  <div class="form-text">This will be displayed on your ad</div>
+                </div>
+              </div>
+            </div>
+            <div class="postHeader">
+              <h4>Publish your ad </h4>
+            </div>
+            <div class="postBody">
+              <div class="checkCol">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="termLbl">
+                  <label class="form-check-label" for="termLbl">I agree to DoMyBidding’s <a href="javascript:void(0)" target="_blank">Terms and Conditions</a>, <a href="javascript:void(0)" target="_blank"> Posting Guidelines</a> and accept the <a href="javascript:void(0)" target="_blank">Privacy Policy</a>.</label>
+                </div>
+              </div>
+              <button class="btn btnSecondary">Publish your ad</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerCol">
+      <div class="footerTopCol">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl">
+              <div class="row gy-4 g-2">
+                <div class="col-6 col-md-3">
+                  <h4 class="footerTitle">Business Directory</h4>
+                  <ul class="footerLinks">
+                    <li><a href="javascript:void(0)">Company</a></li>
+                    <li><a href="javascript:void(0)">Colleges</a></li>
+                    <li><a href="javascript:void(0)">Hospital</a></li>
+                    <li><a href="javascript:void(0)">Company</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h4 class="footerTitle">Classifieds</h4>
+                  <ul class="footerLinks">
+                    <li><a href="javascript:void(0)">Real Estate</a></li>
+                    <li><a href="javascript:void(0)">Computer</a></li>
+                    <li><a href="javascript:void(0)">Clothing</a></li>
+                    <li><a href="javascript:void(0)">Jobs</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h4 class="footerTitle">Resources</h4>
+                  <ul class="footerLinks">
+                    <li><a href="javascript:void(0)">Support</a></li>
+                    <li><a href="javascript:void(0)">FAQ</a></li>
+                    <li><a href="javascript:void(0)">Terms of Service</a></li>
+                    <li><a href="javascript:void(0)">Contact Details</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h4 class="footerTitle">Popular Ads</h4>
+                  <ul class="footerLinks">
+                    <li><a href="javascript:void(0)">Educational college Ads</a></li>
+                    <li><a href="javascript:void(0)">Lorem ipusum dummy text</a></li>
+                    <li><a href="javascript:void(0)">Lorem ipusum dummy</a></li>
+                    <li><a href="javascript:void(0)">Lorem ipusum dummy text</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-auto">
+              <div class="subscribeCol">
+                <div class="row">
+                  <div class="col-sm col-xl-12">
+                    <h4 class="footerTitle">Subscribe</h4>
+                    <form action="">
+                      <div class="input-group">
+                        <input type="email" class="form-control" id="emailFld" placeholder="Email" required>
+                        <button class="input-group-text subscribeBtn">Subscribe</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-sm-auto col-xl-12">
+                    <div class="paymentOptions">
+                      <h4 class="footerTitle">Payments</h4>
+                      <div class="pOptions"><img src="images/payment-option.png" alt="..."></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerBtmCol">
+        <div class="container">
+          <div class="row gy-2 align-items-center">
+            <div class="col-sm-auto order-sm-last">
+              <ul class="socialLinks">
+                <li><a href="javascript:void(0)"><img src="images/fb-icon.png" alt="..."></a></li>
+                <li><a href="javascript:void(0)"><img src="images/twitter-icon.png" alt="..."></a></li>
+                <li><a href="javascript:void(0)"><img src="images/linkedin-icon.png" alt="..."></a></li>
+                <li><a href="javascript:void(0)"><img src="images/pinterest-icon.png" alt="..."></a></li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <div class="copyrightCol">
+                <p class="mb-0">© Domybidding ALL Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="backDrop"></div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/fileupload.js"></script>
+</body>
+
+</html>
